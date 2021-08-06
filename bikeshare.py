@@ -35,7 +35,7 @@ def get_filters():
             city = selected_city.lower()
             get_city_input = False
          else:
-            print(f"Invalid Choice of City: {selected_city}"
+            print(f"Invalid Choice of City: {}".format(selected_city))
     # TO DO: get user input for month (all, january, february, ... , june)
     get_month_input = True
     month = ''
@@ -46,7 +46,7 @@ def get_filters():
             month = selected_month.lower()
             get_month_input = False
         else:
-            print(f"Invalid Choice of Month: {selected_month}"
+            print("Invalid Choice of Month: {}".format(selected_month))
 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
@@ -59,8 +59,7 @@ def get_filters():
             month = selected_day.lower()
             get_day_input = False
         else:
-            print(f"Invalid Choice of Day: {selected_day}"
-
+            print(f"Invalid Choice of Day: {}".format(selected_day))
 
     print('-'*40)
     return city, month, day
