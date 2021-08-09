@@ -2,3 +2,7 @@
 DATA
 .vscode
 baks
+DATA/chicago.csv
+DATA/new_york_city.csv
+DATA/washington.csv
+
